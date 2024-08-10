@@ -22,7 +22,11 @@ import {
   carrent,
   jobit,
   tripguide,
+  ipeim,
   threejs,
+  ensi,
+  iies,
+  sfm,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Machine Learning",
     icon: mobile,
   },
   {
@@ -54,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DevOps",
     icon: creator,
   },
 ];
@@ -114,57 +118,57 @@ const technologies = [
   },
 ];
 
+const academic = [
+  {
+    title: "IPEIM",
+    company_name: "Preparatory Institute for Engineering Studies Monastir",
+    icon: ipeim,
+    iconBg: "#e6dedd",
+    date: "Sept 2020 - Jul 2022",
+    points: [
+      "Section PC 'Physics-Chemistry'",
+      "Two years of heavy studies including Algebra, Physics, IT, Chemistry.",
+      "Ranked 95 Nationally",
+    ],
+  },
+  {
+    title: "ENSI",
+    company_name: "National School Of Computer Science",
+    icon: ensi,
+    iconBg: "#ffff",
+    date: "Sept 2022 - Jun 2025",
+    points: [
+      "One of the leading Computer Science Engineering Schools in Tunisia, making over 40 years of excellence in engineering education and research.",
+      "Focused on my studies in software engineering and computer science, with a particular interest in modern technologies and innovative solutions",
+      "I explored modern web technologies to create dynamic user experiences and delved into ML for intelligent data-driven solutions. Additionally, I embraced DevOps practices to enhance development efficiency and collaboration.",
+    ],
+  },
+];
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "IIES",
+    company_name: "Inspire It Engineering Solutions",
+    icon: iies,
+    iconBg: "#14c7ff",
+    date: "1 Jul 2022 - 31 Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my internship with IIES Company, I developed a web application utilizing HTML, CSS, and JavaScript named Daily.",
+      "Created an interactive feature to provide real-time weather forecasts using external APIs, enhancing user engagement with up-to-date weather information.",
+      "Implemented a currency conversion tool to allow users to easily convert between different currencies, integrating up-to-date exchange rates.",
+      "Gained hands-on experience in front-end development, improving my proficiency in web technologies.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "SFM",
+    company_name: "SFM Technologies",
+    icon: sfm,
+    iconBg: "#C6BAAD",
+    date: " 20 Jun 2024 - 20 Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created in 1995, stemming from the field of telecommunications and networks. Its team of high-level experts and engineers carries out engineering and consulting assignments.",
+      "I developed a full web application using the MERN stack : the MAASAI Platform.",
+      "It features a series of charts that represent all decision-making functionalities. This project was designed to provide traders with an optimal user experience by offering powerful and easily accessible analytical tools..",
     ],
   },
 ];
@@ -262,4 +266,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  academic,
+};
