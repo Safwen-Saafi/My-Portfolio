@@ -1,12 +1,12 @@
 OVERALL STRUCTURE:
 
 1\PUBLIC FOLDER:
-#contains all the 3d models used in the website, the pc model and the planet model
+#contains all the 3d models used in the website, the pc model in the hero section and the planet model for the contac us section
 
 2\SRC FOLDER:
 #ASSETS FOLDER: contains all the images, logos
 #COMPONENTS FOLDER: the React components, plus a canvas folder for rendering the 3D models using the @react-three/fiber and @react-three/drei libraries
-#CONSTANTS FOLDER: a React folder with all the texts from the navbar to any paragraph or text, to facilitate modifying the texts
+#CONSTANTS FOLDER: folder with all the texts from the navbar to any paragraph or text, to facilitate modifying them
 #HOC FOLDER: A high order component folder, with this component we can wrap all of the components in order to get consistent animations and styling across all the sections of the application.
 #UTILS: contains all of the animations.
 &app.jsx: the main app component

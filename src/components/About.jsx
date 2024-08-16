@@ -44,7 +44,7 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("bottom", "spring", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a fresh software developer with experience in TypeScript and
@@ -67,3 +67,7 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+
+
+// {...service}: The spread operator ...service passes all properties of the service object as props to the ServiceCard component. 
+// This means if service has properties like title, icon, etc., they will be passed directly as props to ServiceCard.

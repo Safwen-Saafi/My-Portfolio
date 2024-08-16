@@ -51,7 +51,7 @@ const Hero = () => {
                   "DevOps",
                   1000,
                 ]}
-                className="custom-text" // Apply the custom CSS class
+                className="custom-text"
                 repeat={Infinity}
               />
             </div>
@@ -61,7 +61,7 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      {/* Conditionally render the Rotate PC arrow and text with smooth transition */}
+
       <div
         className={`absolute bottom-4 right-4 items-center hidden sm:flex fade-transition ${
           isVisible ? "visi" : "hid"
@@ -72,7 +72,7 @@ const Hero = () => {
           transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
           className="w-12 h-12 flex justify-center items-center text-white text-4xl"
         >
-          ⟳ {/* This is a rotating arrow symbol */}
+          ⟳
         </motion.div>
         <span className="text-white ml-2 text-lg">Rotate PC</span>
       </div>
