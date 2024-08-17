@@ -166,7 +166,7 @@ const experiences = [
     iconBg: "#C6BAAD",
     date: " 20 Jun 2024 - 20 Aug 2024",
     points: [
-      "Created in 1995, stemming from the field of telecommunications and networks. Its team of high-level experts and engineers carries out engineering and consulting assignments.",
+      "Created in 1995, stemming from the field of telecommunications and networks.",
       "I developed a full web application using the MERN stack : the MAASAI Platform.",
       "It features a series of charts that represent all decision-making functionalities. This project was designed to provide traders with an optimal user experience by offering powerful and easily accessible analytical tools..",
     ],
