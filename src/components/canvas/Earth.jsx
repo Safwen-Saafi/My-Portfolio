@@ -31,7 +31,7 @@ const EarthCanvas = () => {
           autoRotate
           enableZoom={false}
           enablePan={false}
-          maxPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 3}
           minPolarAngle={Math.PI / 2}
         />
         <Earth />
