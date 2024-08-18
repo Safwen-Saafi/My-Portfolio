@@ -70,11 +70,11 @@ const Hero = () => {
         <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-          className="w-12 h-12 flex justify-center items-center text-white text-4xl"
+          className="w-12 h-12 flex justify-center items-center text-trans text-4xl"
         >
           ⟳
         </motion.div>
-        <span className="text-white ml-2 text-lg">Rotate PC</span>
+        <span className="text-trans ml-2 text-lg">Rotate PC</span>
       </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">

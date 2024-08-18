@@ -24,8 +24,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='green-pink-gradient p-[1px] rounded-2xl sm:w-[360px] w-full shadow-card'
       >
+        <div className="bg-tertiary p-5 rounded-2xl min-h-[480px]">
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -62,6 +63,9 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
+        </div>
+
       </Tilt>
     </motion.div>
   );
