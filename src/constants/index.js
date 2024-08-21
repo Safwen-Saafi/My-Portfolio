@@ -23,6 +23,19 @@ import {
   ensi,
   iies,
   sfm,
+  cssm,
+  dockerm,
+  figmam,
+  gitm,
+  htmlm,
+  javascriptm,
+  mongodbm,
+  nodejsm,
+  reactjsm,
+  reduxm,
+  tailwindm,
+  typescriptm,
+  threejsm
 } from "../assets";
 
 export const navLinks = [
@@ -58,6 +71,64 @@ const services = [
     icon: creator,
   },
 ];
+
+
+const techm = [
+  {
+    name: "css",
+    icon: cssm,
+  },
+  {
+    name: "docker",
+    icon: dockerm,
+  },
+  {
+    name: "figma",
+    icon: figmam,
+  },
+  {
+    name: "git",
+    icon: gitm,
+  },
+  {
+    name: "html",
+    icon: htmlm,
+  },
+  {
+    name: "javascript",
+    icon: javascriptm,
+  },
+  {
+    name: "mongodb",
+    icon: mongodbm,
+  },
+  {
+    name: "nodejs",
+    icon: nodejsm,
+  },
+  {
+    name: "reactjs",
+    icon: reactjsm,
+  },
+  {
+    name: "redux",
+    icon: reduxm,
+  },
+  {
+    name: "tailwind",
+    icon: tailwindm,
+  },
+  {
+    name: "typescript",
+    icon: typescriptm,
+  },
+  {
+    name: "threejs",
+    icon: threejsm,
+  },
+];
+
+
 
 const technologies = [
   {
@@ -269,4 +340,5 @@ export {
   testimonials,
   projects,
   academic,
+  techm
 };

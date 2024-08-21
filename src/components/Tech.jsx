@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
+import {techm } from "../constants";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 
@@ -23,24 +24,20 @@ const Tech = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const isMobile = window.matchMedia("(max-width: 500px)").matches;
-  const Map = (isMobile, technologies) => {
-    if (isMobile) {
-      return technologies.slice(0, 6).map((technology) => (
+  var userAgent = navigator.userAgent.toLowerCase();
+  var isAndroid = userAgent.indexOf("android") > -1;
+  console.log(isAndroid);
+  const Map = (isAndroid, technologies) => {
+    if (isAndroid) {
+      return techm.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-          {/* <p className="flex justify-center text-trans font-thin">
-            {technology.name}
-          </p> */}
+            <img src={technology.icon} alt={technology.name} />
         </div>
       ));
     } else {
       return technologies.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
           <BallCanvas icon={technology.icon} />
-          {/* <p className="flex justify-center text-trans font-normal">
-            {technology.name}
-          </p> */}
         </div>
       ));
     }
@@ -56,7 +53,7 @@ const Tech = () => {
         </h2>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
-        {Map(isMobile, technologies)}
+        {Map(isAndroid, technologies)}
       </div>
       <div
         className={`absolute bottom-4 right-4 items-center hidden sm:flex fade-transition ${

@@ -21,20 +21,32 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import cssm from "./mobile/cssm.png";
+import dockerm from "./mobile/docm.png";
+import figmam from "./mobile/figmam.png";
+import gitm from "./mobile/gitm.png";
+import htmlm from "./mobile/htmlm.png";
+import javascriptm from "./mobile/jsm.png";
+import mongodbm from "./mobile/mongm.png";
+import nodejsm from "./mobile/expm.png";
+import reactjsm from "./mobile/rem.png";
+import reduxm from "./mobile/redm.png";
+import tailwindm from "./mobile/twm.png";
+import typescriptm from "./mobile/tym.png";
+import threejsm from "./mobile/threem.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import ipeim from "./company/ipeim.jpg";
-import ensi from"./company/ensi.jpg";
+import ensi from "./company/ensi.jpg";
 import iies from "./company/iies.png";
 import sfm from "./company/sfm.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
 
 export {
   logo,
@@ -69,4 +81,17 @@ export {
   ensi,
   iies,
   sfm,
+  cssm,
+  dockerm,
+  figmam,
+  gitm,
+  htmlm,
+  javascriptm,
+  mongodbm,
+  nodejsm,
+  reactjsm,
+  reduxm,
+  tailwindm,
+  typescriptm,
+  threejsm
 };
