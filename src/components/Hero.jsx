@@ -37,10 +37,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Safwen</span>
+            Hi, I'm <span className="text-[#915EFF]">Safen</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A CS student <span className="text-[#915EFF]">@</span> ENSI, interested in
+            A CS student <span className="text-[#915EFF]">@</span> ENSI,
+            interested in
             <div className="sm:block">
               <TypeAnimation
                 sequence={[
@@ -60,7 +61,6 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
-
 
       <div
         className={`absolute bottom-4 right-4 items-center hidden sm:flex fade-transition ${
