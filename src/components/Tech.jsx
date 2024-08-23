@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-import {techm } from "../constants";
+import { techm } from "../constants";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 
@@ -26,12 +26,11 @@ const Tech = () => {
 
   var userAgent = navigator.userAgent.toLowerCase();
   var isAndroid = userAgent.indexOf("android") > -1;
-  console.log(isAndroid);
   const Map = (isAndroid, technologies) => {
     if (isAndroid) {
       return techm.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
-            <img src={technology.icon} alt={technology.name} />
+          <img src={technology.icon} alt={technology.name} />
         </div>
       ));
     } else {
