@@ -15,7 +15,7 @@ import {
   git,
   figma,
   docker,
-  carrent,
+  cancer,
   jobit,
   tripguide,
   ipeim,
@@ -111,21 +111,13 @@ const techm = [
     icon: reactjsm,
   },
   {
-    name: "redux",
-    icon: reduxm,
-  },
-  {
     name: "tailwind",
     icon: tailwindm,
   },
   {
     name: "typescript",
     icon: typescriptm,
-  },
-  {
-    name: "threejs",
-    icon: threejsm,
-  },
+  }
 ];
 
 
@@ -148,10 +140,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -170,10 +158,6 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -269,68 +253,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Breast Cancer Prediction",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web application that predicts whether a breast cell cluster is benign or malignant based on multiple features. The app provides a user-friendly interface with a circular chart that updates dynamically based on user input and a result display showing the probability of each case.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Machine Learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "streamlit",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations for everyone.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: cancer,
+    source_code_link: "https://github.com/Safwen-Saafi/Breast-Cancer-ML-Streamlit",
+  }
 ];
 
 export {

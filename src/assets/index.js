@@ -44,7 +44,7 @@ import ensi from "./company/ensi.jpg";
 import iies from "./company/iies.png";
 import sfm from "./company/sfm.png";
 
-import carrent from "./carrent.png";
+import cancer from "./cancer.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -74,7 +74,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  cancer,
   jobit,
   tripguide,
   ipeim,

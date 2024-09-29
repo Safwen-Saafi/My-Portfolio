@@ -27,9 +27,34 @@ const Contact = () => {
     });
   };
 
+  const validateEmail = (email) => {
+    // Simple regex for basic email validation
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+
+    // Validation checks
+    if (!form.name) {
+      alert("Name is required.");
+      setLoading(false);
+      return;
+    }
+
+    if (!form.email) {
+      alert("Email is required.");
+      setLoading(false);
+      return;
+    }
+
+    if (!validateEmail(form.email)) {
+      alert("Please enter a valid email address.");
+      setLoading(false);
+      return;
+    }
 
     emailjs
       .send(
@@ -88,6 +113,7 @@ const Contact = () => {
                 onChange={handleChange}
                 placeholder="What's your good name?"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                required
               />
             </label>
             <label className="flex flex-col">
@@ -99,6 +125,7 @@ const Contact = () => {
                 onChange={handleChange}
                 placeholder="What's your web address?"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                required
               />
             </label>
             <label className="flex flex-col">
